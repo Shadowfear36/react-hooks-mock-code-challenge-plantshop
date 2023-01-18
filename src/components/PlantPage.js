@@ -23,7 +23,7 @@ function PlantPage() {
     <main>
       <NewPlantForm plants={plants} setPlants={setPlants}/>
       <Search searchInput={searchInput} setSearchInput={setSearchInput} />
-      <PlantList plants={filteredPlants} />
+      <PlantList plants={filteredPlants} setPlants={setPlants} />
     </main>
   );
 }
